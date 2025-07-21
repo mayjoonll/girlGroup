@@ -8,6 +8,15 @@ public class GirlGroup {
     private String name;
     private LocalDate debut;
 
+    @Override
+    public String toString() {
+        return "GirlGroup{" +
+                "g_id=" + g_id +
+                ", name='" + name + '\'' +
+                ", debut=" + debut +
+                '}';
+    }
+
     public int getG_id() {
         return g_id;
     }
